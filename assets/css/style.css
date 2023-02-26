@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Redressed&display=swap');
+
+
+/* Header */
+
+#main-header {
+    /* Image Credit - Photo by Annie Spratt on Unsplash */
+    /* https://unsplash.com/photos/01Wa3tPoQQ8 */
+    background: url("../images/header-image3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+h2 {
+    font-family: "Redressed", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #fafafa;
+    margin-bottom: 25px;
+}
+
+.nav-bar {
+    background-color: #525252;
+}
+.nav-link {
+    color: #fafafa;
+}
+
+/* .nopad {
+    padding: 0;
+    margin: 0;
+} */
+
+/* Body Sections */
+
+body{
+    /* Code found online to fix footer to bottom of viewport */
+    /* Credit - https://dev.to/inezabonte/how-to-make-footer-stay-at-the-bottom-298b */
+    display:flex; 
+    min-height: 100vh; 
+    flex-direction: column
+}
+
+.body-section {
+    min-height: 120px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    margin: 0;
+    margin-top: auto;
+}
+
+
+/* Debugging */
+
+/* * {
+    border: 1px solid red;
+} */
