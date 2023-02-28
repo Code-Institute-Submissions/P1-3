@@ -101,10 +101,20 @@ button {
     width: 60%;
 }
 
+button a {
+        text-decoration: none;
+        color: #fafafa;
+    }
 
 #my-photo {
     width: 100%;
     height: auto;
+}
+
+.portfolio-img{
+width: 100%;
+height: auto;
+margin-bottom: 20px;
 }
 
 /* Footer */
