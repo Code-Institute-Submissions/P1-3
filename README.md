@@ -75,6 +75,9 @@ During development I came across the following key bugs:
 - BUG: The photographer images on my home page was pushing the whole screen down on larger devices.
 - FIX: I fixed this by adding a max-height to limit this slightly. This was only a small change and did not visibly distort the image, but had the affect of ensuring the whole page was visible on larger screens without having to scroll. 
 
+- BUG: Following deployment my image on the home page was not loading on the live page.
+- FIX: I realised the address was wrong and needed to delete a "/" from the begging of the scr address.
+
 # Credits
 
 - All images used in this project were sourced from https://unsplash.com/
