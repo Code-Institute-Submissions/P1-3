@@ -1,7 +1,7 @@
 # Wedding Photographer Website
 by Scott Edwards
 
-Click here to view the live website.
+[Click here to view the live website.](https://scotte13.github.io/P1/)
 
 Website developed for educational purposes as part of the Code Institute diploma in web development.
 
@@ -84,6 +84,23 @@ During development I came across the following key bugs:
 
 # Deployment
 
+This site was deployed using GitHub pages by taking the following steps:
 
+- From the GitHub repository, go to the settings tab. 
+- Select pages from the menu.
+- Select the main branch.
+- Save
 
+Once completed the url will generate. 
+
+The live URL is: https://scotte13.github.io/P1/
+
+To clone the repository for your own use you can take the following steps:
+
+-From the GitHub repository select the code drop down button.
+- Select HTTPS
+- Copy the repository link
+- Open your own integrated development environment. 
+- enter the git clone command and then paste the copied URL
+-"git clone url"
 
