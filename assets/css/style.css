@@ -119,6 +119,10 @@ button a {
         color: #fafafa;
     }
 
+button:hover{
+    background-color: #8785A2;
+}
+
 #my-photo {
     width: 100%;
     height: auto;
@@ -149,9 +153,7 @@ margin-bottom: 20px;
     margin-bottom: auto;
     padding-top: 30px;
     padding-bottom: 30px;
-    
 }
-
 
 /* Footer */
 
@@ -161,6 +163,11 @@ footer {
     margin: 0;
     margin-top: auto;
 }
+
+.nav-link:hover {
+    color:#8785A2;
+}
+
 
 /* Media Query */
 
