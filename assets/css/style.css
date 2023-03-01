@@ -4,17 +4,16 @@
 /* Header */
 
 #main-header {
-    /* Image Credit - Photo by Annie Spratt on Unsplash */
-    /* https://unsplash.com/photos/01Wa3tPoQQ8 */
     background: url("../images/header-image3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.9;
 }
 
 h1 {
     font-family: "Exo", sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     margin-top: 15px;
     margin-bottom: 10px;
 }
@@ -32,18 +31,16 @@ h2 {
     margin-bottom: 25px;
 }
 
+
 .nav-bar {
-    background-color: #525252;
+    background-color: #a794ae;
 }
 
 .nav-link {
     color: #fafafa;
+    font-size: 1.1em;
+    font-family: "Exo", sans-serif;
 }
-
-/* .nopad {
-    padding: 0;
-    margin: 0;
-} */
 
 /* Body Sections */
 
@@ -53,19 +50,35 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-color: #c0b9944a;
+    background-color: #fafafa;
 }
 
+.body-row {
+    margin: 30px 0 20px 0;
+}
 .body-section {
     text-align: center;
     font-family: "Exo", sans-serif;
     font-size: 1.1em;
-    margin: 30px 0 30px 0;
-    /* position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+}
+
+h3, h5 {
+    font-family: "Exo", sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.thanks-text{
+    margin-top: 100px;
+}
+
+.portfolio-heading{
+    font-family: "Redressed", sans-serif;
 }
 
 .text-container{
@@ -109,6 +122,7 @@ button a {
 #my-photo {
     width: 100%;
     height: auto;
+    max-height: 660px;
 }
 
 .portfolio-img{
@@ -117,16 +131,55 @@ height: auto;
 margin-bottom: 20px;
 }
 
+.form-control{
+    margin-bottom: 5px;
+}
+
+.testimonial-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+
 /* Footer */
 
 footer {
-    background-color: #525252;
+    background-color: #a794ae;
     color: #fafafa;
     margin: 0;
     margin-top: auto;
 }
 
+/* Media Query */
 
+@media(min-width:992px) {
+    .form {
+        padding-top: 30px;
+        margin: 0 auto;
+        max-width: 75%;
+    }
+
+    .form-btn{
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:992px) {
+    .index-btn{
+        margin-bottom: 50px;
+    }
+}
 
 
 /* Debugging */
